@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+</head>
+
+<body>
+    <h1>Eventos e Funções</h1>
+    <form>
+        <input onchange="textoMudou()" placeholder=" digite seu nome" id="nome">
+        <button type="button" onclick="enviar()">Enviar</button>
+    </form>
+
+<H2 id="mouse" onmouseover="mouseCima()" onmouseout="mouseSaiu()">Passe o mouse aqui</H2>
+
+
+<input onkeydown="verificarEnter()" onblur="perdeuFoco()" onfocus="emFoco()" type="text" placeholder="digite algo" id="foco">
+
+    <script src="tde16.js"></script>
+</body>
+
+</html>
